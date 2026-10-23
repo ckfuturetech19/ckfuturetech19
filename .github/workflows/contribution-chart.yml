@@ -1,0 +1,28 @@
+
+name: Update Contribution Charts
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/contribution-chart.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution charts
+        uses: pipipi-dev/gcchart@v1
+        with:
+          outputs: |
+            contributions-year.svg?period=365&granularity=week&style=clean&theme=dark
+            contributions-month.svg?period=30&granularity=day&style=clean&theme=dark
+            contributions-week.svg?period=7&granularity=day&style=clean&theme=dark
+            contributions-90days.svg?period=90&granularity=day&style=clean&theme=dark
+            contributions-all.svg?period=3650&granularity=month&style=clean&theme=dark
