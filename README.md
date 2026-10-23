@@ -317,12 +317,14 @@ I also explore AI integrations and smaller products that let me experiment with 
 
 ## 🟩 My GitHub Contributions
 
-<div align="center">
+<p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-green.svg"
-    alt="3D GitHub contribution calendar in green"
+    src="./profile-3d-contrib/profile-night-rainbow.svg"
+    alt="3D GitHub contribution calendar"
     width="100%"
   />
+</p>
+
 </div>
 
 
