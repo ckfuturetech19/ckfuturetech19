@@ -314,19 +314,17 @@ I also explore AI integrations and smaller products that let me experiment with 
 </div>
 
 
-## 🧊 My 3D GitHub Contributions
 
-<p align="center">
+## 🟩 My GitHub Contributions
+
+<div align="center">
   <img
-    src="./profile-3d-contrib/profile-green-animate.svg"
-    alt="Animated 3D GitHub contribution graph"
+    src="./profile-3d-contrib/profile-night-green.svg"
+    alt="3D GitHub contribution calendar in green"
     width="100%"
   />
-</p>
+</div>
 
-<p align="center">
-  <i>Every square represents a step forward. Keep building. 🚀</i>
-</p>
 
 ---
 
